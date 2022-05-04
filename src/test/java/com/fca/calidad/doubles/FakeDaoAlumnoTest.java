@@ -55,11 +55,7 @@ public class FakeDaoAlumnoTest {
 		int newSize = alumnos_db.size();
 		
 		//Verificamos
-<<<<<<< HEAD
 		assertThat(newSize, is(oldSize + 1));
-=======
-		assertThat(newSize, is(oldSize + 2));
->>>>>>> f60d4c37af1add1e97c7145ca9948eb1523464b9
 	}
 
 }
